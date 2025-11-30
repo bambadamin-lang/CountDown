@@ -31,10 +31,12 @@ position: absolute;
 inset: 0;
 background:
 linear-gradient(to top, rgba(255,255,255,2), rgba(255,255,255,0)),
-url("https://i.ibb.co/7tkncd95/image-2025-10-12-032516129-1.png") center/50% no-repeat;
+url("https://i.ibb.co/7tkncd95/image-2025-10-12-032516129-1.png") center/cover no-repeat;
 opacity: 0.9;
+resize: ;
 z-index: 0;
 pointer-events: none;
+background-size: 200px auto;
 }
 .box-wrapper > * {
 position: relative;
@@ -117,10 +119,6 @@ text-shadow:
 <div class="time-box"><span id="hours">۰۰</span><span>ساعت</span></div>
 <div class="time-box"><span id="minutes">۰۰</span><span>دقیقه</span></div>
 <div class="time-box"><span id="seconds">۰۰</span><span>ثانیه</span></div>
-</div>
-<div class="dynamic-counter-wrapper">
-<div class="counter-box" id="dynamic-counter">+۲۲۰</div>
-<span class="counter-label">ثبت نام شده</span>
 </div>
 </div>
 <script>
